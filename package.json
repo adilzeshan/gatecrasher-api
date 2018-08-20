@@ -1,0 +1,29 @@
+{
+  "name": "gatecrasher",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adilzeshan/gatecrasher.git"
+  },
+  "keywords": [],
+  "author": "Adil Zeshan <adil.zeshan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adilzeshan/gatecrasher/issues"
+  },
+  "homepage": "https://github.com/adilzeshan/gatecrasher#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "firebase": "^5.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}

@@ -1,7 +1,12 @@
 # gatecrasher
 
+# Setup
+
+Update `.env.example` with db credentials and change file name to `.env`.
+
 - list of events
   - event:
+    - id
     - attendees
     - host
     - datetime

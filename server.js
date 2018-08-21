@@ -14,6 +14,10 @@ function Event(config) {
 
   if (config) {
     this.description = config.description || '';
+    this.host = config.host || null;
+    this.location = config.location || null;
+    this.attendees = config.attendees || [];
+    this.duration = config.duration || null;
     this.date = config.date || new Date().getTime();
   }
 }

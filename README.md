@@ -41,7 +41,6 @@ Update `.env.example` with db credentials and change file name to `.env`.
 
   # TODO:
   - Refactor the API
-  - Host the API on Heroku
   - Make a separate front-end
     - Static front-end served on GitHub Pages
   - Handle CORS?

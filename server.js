@@ -76,7 +76,8 @@ app.patch('/event/:id', (req, res) => {
   };
 
   db.ref(`eventsDB/${id}`)
-    .update(updates).then(() => {
+    .update(updates)
+    .then(() => {
       res.json({ [id]: 'updated' });
     });
 });

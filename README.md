@@ -38,3 +38,11 @@ Update `.env.example` with db credentials and change file name to `.env`.
   - PATCH (update)
     - body: object with properties to update
   - DELETE
+
+  # TODO:
+  - Refactor the API
+  - Host the API on Heroku
+  - Make a separate front-end
+    - Static front-end served on GitHub Pages
+  - Handle CORS?
+  - Consider error handling?

@@ -24,6 +24,7 @@ function Event(config) {
 
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
+  // res.header("Access-Control-Request-Method", "PATCH");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
@@ -78,7 +79,7 @@ app.delete('/event/:id', (req, res) => {
   res.json({ [id]: 'removed' });
 });
 
-app.patch('/event/:id', (req, res) => {
+app.post('/event/:id', (req, res) => {
   const id = req.params.id;
 
   let updates = {

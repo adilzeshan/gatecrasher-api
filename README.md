@@ -35,13 +35,22 @@ Update `.env.example` with db credentials and change file name to `.env`.
 
 4. /event/:id
   - GET
-  - PATCH (update)
+  - POST (update)
     - body: object with properties to update
   - DELETE
 
-  # TODO:
+  # TODO:
+  - Create modals for the UI
+  - Delete an event
+  - Diplay/edit event properties
+    - add attendees
+
+  # FUTURE TODO
+  - Refactor with React
+  - Integrate Google Maps API
   - Refactor the API
-  - Make a separate front-end
-    - Static front-end served on GitHub Pages
-  - Handle CORS?
+  - Implement login system
   - Consider error handling?
+  - Make a dev function to wipe and add dummy data
+  - Rename repositories for gatecrasher
+    - turn the front-end into a project site instead

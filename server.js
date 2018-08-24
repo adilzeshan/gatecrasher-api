@@ -70,7 +70,7 @@ app.get('/event/:id', (req, res) => {
     });
 });
 
-app.delete('/event/:id', (req, res) => {
+app.get('/event/:id/delete', (req, res) => {
   const id = req.params.id;
 
   db.ref(`eventsDB/${id}`)

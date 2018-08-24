@@ -40,9 +40,8 @@ Update `.env.example` with db credentials and change file name to `.env`.
   - DELETE
 
   # TODO:
-  - Create modals for the UI
   - Delete an event
-  - Diplay/edit event properties
+  - Display/edit event properties
     - add attendees
 
   # FUTURE TODO
@@ -52,5 +51,4 @@ Update `.env.example` with db credentials and change file name to `.env`.
   - Implement login system
   - Consider error handling?
   - Make a dev function to wipe and add dummy data
-  - Rename repositories for gatecrasher
-    - turn the front-end into a project site instead
+  - Rename DELETE and PATCH requests properly using REST

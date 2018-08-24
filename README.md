@@ -40,8 +40,8 @@ Update `.env.example` with db credentials and change file name to `.env`.
   - DELETE
 
   # TODO:
-  - Display/edit event properties
-    - add attendees
+  - Loading screen
+  - The 'Add New Event' button will be in a fixed position in the bottom right corner
 
   # FUTURE TODO
   - Refactor with React

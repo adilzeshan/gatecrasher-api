@@ -40,7 +40,6 @@ Update `.env.example` with db credentials and change file name to `.env`.
   - DELETE
 
   # TODO:
-  - Delete an event
   - Display/edit event properties
     - add attendees
 
@@ -52,3 +51,5 @@ Update `.env.example` with db credentials and change file name to `.env`.
   - Consider error handling?
   - Make a dev function to wipe and add dummy data
   - Rename DELETE and PATCH requests properly using REST
+  - Make robust type-checking for data that is being input
+  - Write some tests

@@ -82,8 +82,15 @@ app.get('/event/:id/delete', (req, res) => {
 app.post('/event/:id', (req, res) => {
   const id = req.params.id;
 
+  let { description, host, attendees, date, duration, location } = req.body;
+
   let updates = {
-    description: req.body.description
+    description,
+    host,
+    attendees,
+    date,
+    duration,
+    location
   };
 
   db.ref(`eventsDB/${id}`)
